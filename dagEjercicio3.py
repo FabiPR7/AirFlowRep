@@ -5,7 +5,7 @@ from datetime import datetime
 with DAG(
         'dag_secuencial3',
         start_date=datetime(2026,1,15),
-        schedule_interval='@daily',  # o None si quieres manual
+        schedule_interval='@hourly',
         catchup=False
 ) as dag:
 
