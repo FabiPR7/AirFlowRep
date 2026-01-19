@@ -24,5 +24,5 @@ with DAG(
         bash_command='echo "Esta es la rama 2"'
     )
 
-    # Dependencias secuenciales
+
     t1 >> t2 >> t3

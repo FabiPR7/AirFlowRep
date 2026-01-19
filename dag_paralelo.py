@@ -5,7 +5,7 @@ from datetime import datetime
 with DAG(
         'dag_paralelo',
         start_date=datetime(2026,1,15),
-        schedule_interval=None,  # manual
+        schedule_interval=None,
         catchup=False
 ) as dag:
 
